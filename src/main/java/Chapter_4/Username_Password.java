@@ -18,9 +18,9 @@ public class Username_Password {
         input_p = input.nextLine();
         
         if ((input_u.equals(u)) && input_p.equals(p)) {
-            System.out.println("Correct account and password!");
+            System.out.println("Correct Username and Password!");
         } else {
-            System.out.println("Incorrect account or password!");
+            System.out.println("Incorrect Username or Password!");
         }
     }
 }
