@@ -7,14 +7,14 @@ import java.util.Scanner;
  * @author admin
  */
 public class Phien3_Bai4 {
-    public static void main(String[] Strings) {
-        double minutesInYear = 60 * 24 * 365;
+    public static void main(String[] args) {
+        int m, leftover_d, y, d ;
         Scanner input = new Scanner(System.in);
-        System.out.print("Input the number of minutes: ");
-        double min = input.nextDouble();
-        long years = (long) (min / minutesInYear);
-        int days = (int) (min / 60 / 24) % 365;
-        System.out.println((int) min + " minutes is approximately " + years + " years and " + days + " days");
+        System.out.println("Enter minutes: ");
+        m = input.nextInt();
+        d = m/60/24;
+        y = d/365;
+        leftover_d = d%365;
+        System.out.println(m + " minutes is approximately: " + y +" years and "  + leftover_d + " days");
     }
 }
-
