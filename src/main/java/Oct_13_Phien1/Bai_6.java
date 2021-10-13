@@ -32,7 +32,7 @@ public class Bai_6 {
             a = input.nextFloat();
             b = input.nextFloat();
             c = input.nextFloat();
-            Bai_5.Quadratic(a, b, c);
+            Bai_6.Quadratic(a, b, c);
         }  
     }
     
